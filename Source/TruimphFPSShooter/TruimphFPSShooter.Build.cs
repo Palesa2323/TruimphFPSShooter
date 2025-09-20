@@ -17,8 +17,10 @@ public class TruimphFPSShooter : ModuleRules
 			"AIModule",
 			"StateTreeModule",
 			"GameplayStateTreeModule",
-			"UMG"
-		});
+			"UMG",
+			"Niagara",
+			"GameplayTasks",
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
